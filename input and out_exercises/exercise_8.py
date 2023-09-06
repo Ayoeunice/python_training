@@ -1,8 +1,11 @@
 #  Format variables using a string.format() method.
 
-formatted1 = "totalMoney{money}".format(money="=1000")
-formatted2 = "quantity{quantity}".format(quantity="=3")
-formatted3 = "price{price}".format(price="=450")
-print(formatted1)
-print(formatted2)
-print(formatted3)
+money = 1000
+quantity = 3
+price = 450.00
+
+formatted_string = "I have {} dollars so I can buy {} football for {} dollars.".format(money, quantity, price)
+
+# Print the formatted string
+print(formatted_string)
+
