@@ -3,6 +3,6 @@ f = open("test2.txt", "r")
 
 import linecache
 
-# read fifth line
+# read fourth line
 line = linecache.getline("test2.txt", 4)
 print(line)
