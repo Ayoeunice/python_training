@@ -2,7 +2,7 @@
 # Write a program to accept a number from a user and calculate the sum of all numbers from 1 to a given number
 
 try:
-    num = int(input("Enter a positive integer: "))
+    num = int(input("Enter number: "))
 
     if num < 1:
         print("Please enter a positive integer.")
@@ -12,7 +12,7 @@ try:
         for i in range(1, num + 1):
             total += i
 
-        print(f"The sum of all numbers from 1 to {num} is: {total}")
+        print(f"The sum  is: {total}")
 
 except ValueError:
     print("Invalid input. Please enter a positive integer.")
