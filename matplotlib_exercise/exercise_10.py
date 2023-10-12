@@ -20,8 +20,7 @@ plt.plot([],[], color='y', label='Tooth paste', linewidth=6)
 plt.plot([],[], color='k', label='Bathing soap', linewidth=6)
 plt.plot([],[], color='g', label='Shampoo',      linewidth=6)
 plt.plot([],[], color='r', label='Moisturizer',  linewidth=6)
-# Create a stack plot
-# plt.figure(figsize=(12, 6))
+
 plt.stackplot(months, face_wash, face_cream, bathing_soap,shampoo,tooth_paste,moisturizer,colors = ['m', 'c', 'k', 'g', 'y', 'r'])
 
 # Customize the plot
